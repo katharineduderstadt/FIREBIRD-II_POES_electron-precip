@@ -26,9 +26,8 @@ Electron_Count_Comparisons
       Contains Python code and associated files to calculate equivalent FIREBIRD counts 
       for comparison with POES/MetOp MEPED. 
 
-MATLAB_summary_plots
-      Contains MATLAB code and associated file used to create summary plots
-
+Data_Summary
+      Contains .csv file with summary data as well as summary plot for L=5.
 
 ## DATA
 
