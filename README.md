@@ -45,7 +45,10 @@ python imports include: netcdf4, numpy, scipy, matplotlib, sys, datetime, ast, m
 
 ### Installing
 
-https://github.com/katharineduderstadt/FIREBIRD-II_POES_electron-precip/edit/main/
+git init
+
+git clone https://github.com/katharineduderstadt/FIREBIRD-II_POES_electron-precip/
+
 
 ### Executing program
 
