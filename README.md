@@ -10,19 +10,29 @@ Modify dates and parameters in the shell script
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This study compares energetic electron precipitation measurements
+by the Focused Investigations of Relativistic Electron Burst Intensity
+Range, and Dynamics (FIREBIRD-II) CubeSats with NOAA Polar-orbiting
+Operational Environmental Satellite (POES) and ESA Meteorological 
+Operational satellite (MetOp) satellites, which are equipped with the
+Medium-Energy Proton Electron Detector (MEPED).
+
+See "Comparisons of Energetic Electron Observations between 
+FIREBIRD-II CubeSats and POES/MetOp Satellites from 2018-2020"
+by Householder et al. (submitted 2024)
 
 ## Getting Started
 
-Modify dates and parameters in the shell script  
-      sh FB-POES_counts.sh
+sh FB-POES_counts.sh
 
+Modify dates and parameters in the shell script FB-POES_counts.sh
+    
 Input files for G-factors - see GEANT folder (files created with FB_GEANT_all.py) 
 
       FU3-col.txt
       FU3_Gfactors.txt
 
-Input files in DATA folder
+Input files in DATA folders FIREBIRD and POES
 
       FIREBIRD data downloaded from http://solar.physics.montana.edu/FIREBIRD_II/Data/ 
       FU3_Hires_2018-12-31_L2.txt
@@ -52,23 +62,20 @@ git clone https://github.com/katharineduderstadt/FIREBIRD-II_POES_electron-preci
 
 ### Executing program
 
-Modify dates and parameters in the shell script  
-      sh FB-POES_counts.sh
+Modify dates and parameters in the shell script FB-POES_counts.sh
 
-Ensure all input files are available 
+Ensure all input files are available for dates.  
 
-The following python codes will be run
+Execute shell script
+
+    sh FB-POES_counts.sh
+
+The following python codes will run
       FB_select_times.py
       FB_datetime_average.py
       FB_flux_estimate.py
       POES_counts_corrected.py
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
