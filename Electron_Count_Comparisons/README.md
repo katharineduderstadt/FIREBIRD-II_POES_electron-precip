@@ -85,6 +85,8 @@ Katharine Duderstadt   katharine.duderstadt@unh.edu
 
 ## Acknowledgments
 
+This research was supported by NSF CEDAR (1650738), NSF 1035642 and NASA (135260, NNX15AF66G). 
+FIREBIRD-II data was made possible by the NSF (0838034, 1339414). 
 
 
 
