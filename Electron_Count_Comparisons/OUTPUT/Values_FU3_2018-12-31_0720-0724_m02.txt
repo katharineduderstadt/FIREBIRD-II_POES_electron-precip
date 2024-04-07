@@ -1,0 +1,258 @@
+At conjunction time =   2018-12-31 07:22:30.048000 J0 =  7.37 E0 = 357.00 L = 6.68
+   At Prior timestep =  2018-12-31 07:22:29.048000 J0 = 14.30 E0 = 144.40 L = 6.63
+   At Next timestep =  2018-12-31 07:22:31.048000 J0 = 73.60 E0 = 244.00 L = 6.74
+
+Title:  FU3_and_m02_conjunction
+
+FIREBIRD  xxx
+POES  xxx
+
+FIREBIRD time plot range FU3_2018-12-31_0720-0724
+POES time plot range m02_2018-12-31_0720-0724
+FIREBIRD lat, lon range lat_-57_to_-72,_lon_-24_to_-56
+POES lat, lon range xxx
+
+FIREBIRD energies ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+
+FIREBIRD EQUIVALENT COUNTS
+   L = 3 values E1, E2, E3, P6
+     nan    nan    nan    nan
+   Conjunction time values at L =  6.68  E1, E2, E3, P6
+     nan    nan    nan    nan
+   L = 4 values E1, E2, E3, P6
+    5.46   4.19    nan   0.11
+   L = 5 values E1, E2, E3, P6
+   34.04  23.99   6.57   0.27
+   
+    Average FB eq 0.5 L bin conjunction values at L = 5   E1, E2, E3, P6
+   28.40  21.00   6.83   0.40
+   L = 6 values E1, E2, E3, P6
+    5.74   3.89   0.93   0.03
+   L = 7 values E1, E2, E3, P6
+   239.31  101.31   4.09   0.03
+   
+    Average FB eq 0.5 L bin conjunction values at L =  6.68  E1, E2, E3, P6
+   19.86  13.67   4.14   0.26
+   
+     max FB E1 =  322.9012449882359
+     max FB E2 =  151.18612769619511
+     max FB E3 =  51.168870387203896
+     max FB P6 =  4.537951668769029
+
+POES OBSERVED COUNTS 0 TELESCOPE
+Raw L = 3 values E1, E2, E3, P6
+5.0 3.0 2.0 1.0
+Correct L = 3 values E2, E3, P6
+2.8785856 1.9842083 1.0
+Raw L = 4 values E1, E2, E3, P6
+1.0 1.0 1.0 0.0
+Correct L = 4 values  E2, E3, P6
+1.0 1.0 0.01
+Raw L = 5 values E1, E2, E3, P6
+4.0 4.0 3.0 2.0
+Correct L = 5 values E2, E3, P6
+3.2607083 2.7762024 2.0
+   
+Raw Average POES 0.5 L bin conjunction values at L = 5   E1, E2, E3, P6 
+3.1176472 2.7333333 1.5384616 1.4444444
+   
+   
+Correct Average POES 0.5 L bin conjunction values at L = 5   E2, E3, P6 
+2.0186305 1.0455391 0.67222226
+   
+Raw L = 6 values E1, E2, E3, P6
+1.0 1.0 0.0 2.0
+Correct L = 6 values E2, E3, P6
+0.96797186 0.01 2.0
+Raw Conjunction time values at L =  6.478786431133581  E1, E2, E3, P6
+1.0 1.0 0.0 0.0
+Correct Conjunction time values at L =  6.478786431133581   E2, E3, P6
+0.85437477 0.01 0.01
+   
+Raw Average POES 0.5 L bin conjunction values at L =  6.478786431133581  E1, E2, E3, P6
+3.4545455 2.6666667 2.4285715 1.0
+   
+Correct Average POES 0.5 L bin conjunction values at L =  6.478786431133581   E2, E3, P6
+   
+1.7637582 1.5215478 0.5509091
+   
+Raw L = 7 values E1, E2, E3, P6
+3.0 0.0 0.0 2.0
+Correct L = 7 values E2, E3, P6
+0.01 0.01 0.01
+raw max POES E1 =  10.0
+raw max POES E2 =  6.0
+raw max POES E3 =  5.0
+raw max POES P6 =  3.0
+   
+correct max POES E2 =  4.963855
+correct max POES E3 =  4.999975
+correct max POES P6 =  3.0
+
+POES OBSERVED COUNTS 90 TELESCOPE
+Raw L = 3 values E1, E2, E3, P6
+311.5 26.0 5.0 0.0
+Correct L = 3 values E2, E3, P6
+25.993023 4.999995 0.01
+Raw L = 4 values E1, E2, E3, P6
+124.5 50.5 12.0 0.0
+Correct L = 4 values  E2, E3, P6
+50.5 12.0 0.01
+Raw L = 5 values E1, E2, E3, P6
+2239.5 1439.5 591.5 18.0
+Correct L = 5 values E2, E3, P6
+1431.6194 589.91315 18.0
+   
+Raw Average POES 0.5 L bin conjunction values at L = 5   E1, E2, E3, P6 
+2155.0557 1387.9445 562.1667 13.277778
+   
+   
+Correct Average POES 0.5 L bin conjunction values at L = 5   E2, E3, P6 
+1382.8049 561.3542 13.277778
+   
+Raw L = 6 values E1, E2, E3, P6
+2879.5 1807.5 687.5 15.0
+Correct L = 6 values E2, E3, P6
+1801.4265 687.00385 15.0
+Raw Conjunction time values at L =  6.478786431133581  E1, E2, E3, P6
+2751.5 1503.5 499.5 11.0
+Correct Conjunction time values at L =  6.478786431133581   E2, E3, P6
+1499.5349 499.15112 11.0
+   
+Raw Average POES 0.5 L bin conjunction values at L =  6.478786431133581  E1, E2, E3, P6
+2728.2273 1427.8636 459.13635 9.818182
+   
+Correct Average POES 0.5 L bin conjunction values at L =  6.478786431133581   E2, E3, P6
+   
+1424.0261 458.89597 9.818182
+   
+Raw L = 7 values E1, E2, E3, P6
+2239.5 1119.5 327.5 7.0
+Correct L = 7 values E2, E3, P6
+1116.9734 327.2879 7.0
+raw max POES E1 =  3423.5
+raw max POES E2 =  1999.5
+raw max POES E3 =  815.5
+raw max POES P6 =  26.0
+   
+correct max POES E2 =  1993.926
+correct max POES E3 =  814.86487
+correct max POES P6 =  26.0
+
+POES OBSERVED COUNTS GEOMETRIC MEAN
+Raw L = 3 values E1, E2, E3, P6
+39.465176 8.83176 3.1622777 nan
+Correct L = 3 values E2, E3, P6
+8.650037 3.149767 0.1
+Raw L = 4 values E1, E2, E3, P6
+11.157957 7.106335 3.4641016 nan
+Correct L = 4 values  E2, E3, P6
+7.106335 3.4641016 0.01
+Raw L = 5 values E1, E2, E3, P6
+94.64671 75.881485 42.124813 6.0
+Correct L = 5 values E2, E3, P6
+68.32345 40.46873 6.0
+   
+Raw Average POES 0.5 L bin conjunction values at L = 5   E1, E2, E3, P6 
+78.24555 60.05945 28.562601 4.6648974
+   
+   
+Correct Average POES 0.5 L bin conjunction values at L = 5   E2, E3, P6 
+47.214226 20.570013 2.3269587
+   
+Raw L = 6 values E1, E2, E3, P6
+53.660973 42.5147 nan 5.477226
+Correct L = 6 values E2, E3, P6
+41.757996 2.6210759 5.477226
+Raw Conjunction time values at L =  6.478786431133581  E1, E2, E3, P6
+52.454742 38.77499 nan nan
+Correct Conjunction time values at L =  6.478786431133581   E2, E3, P6
+35.79336 2.234169 0.33166248
+   
+Raw Average POES 0.5 L bin conjunction values at L =  6.478786431133581  E1, E2, E3, P6
+92.004074 60.147793 33.23784 3.0848105
+   
+Correct Average POES 0.5 L bin conjunction values at L =  6.478786431133581   E2, E3, P6
+   
+42.64944 21.70213 1.5797442
+   
+Raw L = 7 values E1, E2, E3, P6
+81.96645 nan nan 3.7416575
+Correct L = 7 values E2, E3, P6
+3.3421152 1.8091099 0.26457512
+raw max POES E1 =  169.6909
+raw max POES E2 =  101.336075
+raw max POES E3 =  54.3829
+raw max POES P6 =  8.6602545
+   
+correct max POES E2 =  91.52947
+correct max POES E3 =  54.37239
+correct max POES P6 =  8.124039
+
+ --------  POES BOUNCE LOSS CONE FLUX -------- 
+
+
+ BLC flux L = 3 values for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+5.963553 1.9041467 0.51414734 0.18071245 0.3446894
+
+ BLC flux L = 4 values for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+10.434291 4.684445 1.2730489 0.32861918 0.10035522
+
+ BLC flux L = 5 values for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+194.25797 119.92862 51.164696 20.235085 1.428976
+
+ BLC flux Average 0.5 L bin around L = 5 for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+201.61086 117.05492 45.50471 16.473564 0.95001477
+   
+
+ BLC flux L = 6 values for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+265.48245 150.36494 56.03795 19.289988 0.9277445
+
+ BLC flux Conjunction time values at L =  6.478786431133581  for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+239.57478 128.08707 44.137672 14.1160965 0.563944
+   
+
+ BLC flux Average 0.5 L bin around conjunction values at L =  6.478786431133581  for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+235.9731 122.21815 40.534714 12.601404 0.49768388
+   
+
+ BLC flux L = 7 values for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+189.12718 95.60494 30.442116 9.022453 0.29629162
+
+ BLC flux max POES for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV'] 
+ 323.0542 172.54 71.059586 27.206303 2.113975
+   
+
+ --------  FB BOUNCE LOSS CONE FLUX -------- 
+
+
+ BLC flux L = 3 for energies ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+nan nan nan nan nan
+
+ BLC flux L = 4 for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+4.236889430826813 2.6837320200823775 1.3529357537796372 0.6820484087673889 0.10979517863210958
+
+ BLC flux L = 5 for energies  ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+28.971553696142134 15.567671576059578 6.131990492263429 2.415345622721994 0.20136629669188713
+
+ BLC flux Average 0.5 L bin around L = 5 for energies   ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+23.11297673614854 13.624278363030603 6.199883481161722 2.840304949962889 0.366384971646559
+   
+
+ BLC flux L = 6 for energies   ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+4.947706371089217 2.470646025867434 0.8718071818197195 0.3076311840364065 0.019127437704191712
+
+ BLC flux Conjunction time values at L =  6.68  for energies   ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+15.816924182583424 11.952834808803583 7.852252281727369 5.158430354151639 1.6823374387754582
+   
+
+ BLC flux Average 0.5 L bin around conjunction values at L =  6.68  for energies   ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+60.65540983253262 24.322574375273533 10.448559359067179 5.353425930131645 1.3175847405360048
+   
+
+ BLC flux L = 7 for energies   ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV']
+143.54453865199994 52.27636468332149 11.489031937183203 2.525000650929519 0.044415679949002855
+
+ BLC flux max POES for energies   ['200_keV', '300_keV', '450_keV', '600_keV', '1000_keV'] 
+ 212.32629675608322 80.88462285217248 43.74028940209718 23.653604968596667 4.591337018035924
+   
