@@ -17,26 +17,38 @@ An in-depth paragraph about your project and overview of use.
 Modify dates and parameters in the shell script  
       sh FB-POES_counts.sh
 
+Input files for G-factors - see GEANT folder (files created with FB_GEANT_all.py) 
+      FU3-col.txt
+      FU3_Gfactors.txt
+
+Input files in DATA folder
+
+      FIREBIRD data downloaded from http://solar.physics.montana.edu/FIREBIRD_II/Data/ 
+      FU3_Hires_2018-12-31_L2.txt
+
+      POES data downloaded from https://www.ngdc.noaa.gov/stp/satellite/poes/dataaccess.html 
+      poes_m02_20181231_proc.nc
+      poes_m02_20181231_raw.nc
+
+      POES corrected fluxes and bounce loss cone estimates provided by Josh Pettit 
+      POES_combinedSpectrum_2sec_m02_00_20181231.nc
+      POES_combinedSpectrum_2sec_m02_90_20181231.nc
+      POES_combinedSpectrum_m02_BLC_highres_20181231.nc
+
 ### Dependencies
 
-netcdf4
-
-python 
-
-python imports include: numpy, scipy, matplotlib, 
+python imports include: netcdf4, numpy, scipy, matplotlib, sys, datetime, ast, math, calendar
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+https://github.com/katharineduderstadt/FIREBIRD-II_POES_electron-precip/edit/main/
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+Modify dates and parameters in the shell script  
+      sh FB-POES_counts.sh
+
+Ensure all input files are available 
 
 ## Help
 
