@@ -36,6 +36,9 @@ Input files in DATA folder
       POES_combinedSpectrum_2sec_m02_90_20181231.nc
       POES_combinedSpectrum_m02_BLC_highres_20181231.nc
 
+      L-shells for POES data come from 
+      poes_m02_20181231_raw_magephem.txt
+
 ### Dependencies
 
 python imports include: netcdf4, numpy, scipy, matplotlib, sys, datetime, ast, math, calendar
