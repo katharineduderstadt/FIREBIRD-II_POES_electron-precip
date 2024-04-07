@@ -18,6 +18,7 @@ Modify dates and parameters in the shell script
       sh FB-POES_counts.sh
 
 Input files for G-factors - see GEANT folder (files created with FB_GEANT_all.py) 
+
       FU3-col.txt
       FU3_Gfactors.txt
 
