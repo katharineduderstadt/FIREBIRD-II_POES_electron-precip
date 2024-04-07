@@ -23,8 +23,12 @@ by Householder et al. (submitted 2024)
 
 ## Directories 
 
+Electron_Count_Comparisons
+      Contains Python code and associated files to calculate equivalent FIREBIRD counts 
+      for comparison with POES/MetOp MEPED. 
 
-
+MATLAB_summary_plots
+      Contains MATLAB code and associated file used to create summary plots
 
 ## Authors
 
