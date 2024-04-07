@@ -1,6 +1,5 @@
 # FIREBIRD-II_POES_electron-precip
 
-
 This repository contains the code used to estimate FIREBIRD count equivalents 
 based on POES/MetOP MEPED instruments. 
 
@@ -30,15 +29,28 @@ Electron_Count_Comparisons
 MATLAB_summary_plots
       Contains MATLAB code and associated file used to create summary plots
 
+
+## DATA
+
+FIREBIRD-II data 
+https://solar.physics.montana.edu/FIREBIRD_II/
+
+POES/MetOp data available from 
+https://www.ngdc.noaa.gov/stp/satellite/poes/dataaccess.html
+
+Corrected POES data available directly from Josh Pettit
+joshua.m.pettit@nasa.gov 
+
 ## Authors
 
 Isabella Householder   isabella.householder@unh.edu 
+
 Katharine Duderstadt   katharine.duderstadt@unh.edu
 
 
 ## Acknowledgments
 
-
+This research was supported by NSF CEDAR (1650738), NSF 1035642 and NASA (135260, NNX15AF66G). FIREBIRD-II data was made possible by the NSF (0838034, 1339414).  
 
 
 
