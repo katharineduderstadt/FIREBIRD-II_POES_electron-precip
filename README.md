@@ -50,6 +50,12 @@ Modify dates and parameters in the shell script
 
 Ensure all input files are available 
 
+The following python codes will be run
+      FB_select_times.py
+      FB_datetime_average.py
+      FB_flux_estimate.py
+      POES_counts_corrected.py
+
 ## Help
 
 Any advise for common problems or issues.
